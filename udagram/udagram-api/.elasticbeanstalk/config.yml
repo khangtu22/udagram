@@ -1,0 +1,23 @@
+branch-defaults:
+  default:
+    environment: null
+    group_suffix: null
+  master:
+    environment: udagram-api-dev-2
+    group_suffix: null
+deploy:
+  artifact: www/Archive.zip
+global:
+  application_name: udagram-api
+  branch: null
+  default_ec2_keyname: vockey
+  default_platform: Node.js 18
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: null
+  sc: git
+  workspace_type: Application
